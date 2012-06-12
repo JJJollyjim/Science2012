@@ -1,5 +1,5 @@
 <?php
-	mysql_connect("localhost", "root", "chesey") or die(mysql_error());
+	mysql_connect("localhost", "root", "/password/") or die(mysql_error());
 	mysql_select_db("science") or die(mysql_error());
 
 	$jsonR = fopen("moreInfo.io", "r");
